@@ -19,7 +19,7 @@ const OurServices = () => {
           </p>
         </div>
 
-        <div className="flex items-center justify-between gap-5 mt-14">
+        <div className="flex flex-col items-center justify-between gap-5 px-10 md:px-0 md:flex-row mt-14 bg-primary">
           {serviceData.map((item, index) => (
             <Service
               key={index}

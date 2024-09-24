@@ -11,9 +11,7 @@ const CustomButton = ({ title, onClick, selected }) => {
   return (
     <button
       onClick={() => handleActive(selected)}
-      className={`py-[5px] px-3.5 ${
-        selected === isActive ? "text-white" : "text-[#aaa8]"
-      } hover:bg-secondary  font-light border border-[#aaa2] cursor-pointer transition-all duration-300`}
+      className={`py-[5px] px-3.5 text-[#aaa8] hover:text-white hover:bg-secondary  font-light border border-[#aaa2] cursor-pointer transition-all duration-300`}
     >
       {title}
     </button>

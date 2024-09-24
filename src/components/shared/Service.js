@@ -8,16 +8,11 @@ const Service = ({ icon, iconHover, title, desc }) => {
       <img
         src={ICON.patternbg}
         alt="iconHover"
-        className="absolute -bottom-10 group-hover:bottom-0 -right-[145px] group-hover:right-0 transition-all duration-700 w-full h-[80%]"
+        className="absolute -bottom-10 group-hover:bottom-0 -right-[160px] group-hover:right-0 transition-all duration-700 w-full h-[80%]"
       />
 
-
       <div className="relative w-auto h-auto row-span-4">
-        <img
-          src={icon}
-          alt="icon"
-          className="w-auto h-24 group-hover:hidden"
-        />
+        <img src={icon} alt="icon" className="w-auto h-24 group-hover:hidden" />
         <img
           src={iconHover}
           alt="iconHover"
@@ -29,7 +24,9 @@ const Service = ({ icon, iconHover, title, desc }) => {
         <h1 className="text-3xl font-bold text-white duration-300 cursor-pointer group-hover:text-secondary">
           {title}
         </h1>
-        <p className="text-[15px] tracking-[0.018em] leading-[1.9] text-mainGray mt-6">{desc}</p>
+        <p className="text-[15px] tracking-[0.018em] leading-[1.9] text-mainGray mt-6">
+          {desc}
+        </p>
       </div>
 
       <div className="row-span-2 place-content-center">

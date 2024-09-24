@@ -1,19 +1,18 @@
-import React from "react";
-import Wrapper from "../shared/Wrapper";
-import { ICON } from "../../assets";
 import { GoArrowUpRight } from "react-icons/go";
+import { ICON } from "../../assets";
+import AnimatedButton from "../shared/AnimatedButton";
 import HalfSectionHeader from "../shared/HalfSectionHeader";
 import PercentageBar from "../shared/PercentageBar";
-import AnimatedButton from "../shared/AnimatedButton";
+import Wrapper from "../shared/Wrapper";
 
 const OurSuccess = () => {
   return (
-    <section className="flex items-center w-full h-screen">
+    <section className="flex items-center w-full pb-20 mt-20 md:mt-0 md:h-screen">
       <Wrapper>
-        <div className="grid grid-cols-2 gap-10 place-items-center place-content-center">
+        <div className="grid gap-10 px-6 md:grid-cols-2 place-items-center place-content-center">
           {/* Left */}
           <div className="relative">
-            <div className="w-[35%] h-[35%] absolute top-28 right-1 p-4">
+            <div className="w-[35%] h-[35%] absolute top-14 md:top-28 -right-1 md:right-1 md:p-4">
               <h5 className="text-lg font-semibold leading-tight text-white">
                 How much faster is Connect.
               </h5>
@@ -32,7 +31,7 @@ const OurSuccess = () => {
             <HalfSectionHeader
               title="What do We Do"
               tagLine="Grow your business with a creative agency."
-              fns="text-[56px]"
+              fns="text-3xl md:text-[56px]"
             />
             <p className="mt-5 text-mainGray">
               Mauris ut enim sit amet lacus ornare ullamcorper. Praesent
@@ -41,12 +40,13 @@ const OurSuccess = () => {
               blandit.
             </p>
 
-            <div className="flex justify-between mt-5 mb-10 gap-7">
-              <PercentageBar />
-              <PercentageBar />
+            <div className="px-4 md:px-0">
+              <div className="flex flex-col justify-between mt-5 mb-10 md:flex-row gap-7">
+                <PercentageBar />
+                <PercentageBar />
+              </div>
+              <AnimatedButton bgc="#df2919" title="Discover More" h={60} />
             </div>
-
-           <AnimatedButton bgc="#df2919" title="Discover More" h={60}/>
           </div>
         </div>
       </Wrapper>

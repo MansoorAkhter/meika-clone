@@ -1,4 +1,3 @@
-import React from "react";
 import { clientsData } from "../../utils/TextData";
 import Wrapper from "../shared/Wrapper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,13 +11,27 @@ import { Pagination } from "swiper/modules";
 const ClientCarousel = () => {
   return (
     <Wrapper>
-      <div className="flex items-center w-full h-32 mt-10">
+      <div className="flex items-center justify-center w-full h-32 px-4 mt-20 md:px-0">
         <Swiper
           slidesPerView={4}
-          spaceBetween={30}
-          // pagination={{
-          //   clickable: true,
-          // }}
+          breakpoints={{
+            '@0.00': {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            '@0.75': {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            '@1.00': {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+            '@1.50': {
+              slidesPerView: 4,
+              spaceBetween: 30,
+            },
+          }}
           modules={[Pagination]}
           className="mySwiper"
         >

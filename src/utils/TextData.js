@@ -78,7 +78,7 @@ export const serviceData = [
   },
 ];
 
-export const porfolioData = [
+export const portfolioData = [
   { title: "Web Design", desc: "Responsive Web Design", img: ICON.protfolio1 },
   {
     title: "UI/UX Design",

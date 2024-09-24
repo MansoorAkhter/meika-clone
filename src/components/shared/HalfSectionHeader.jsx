@@ -9,7 +9,7 @@ const HalfSectionHeader = ({ title, tagLine, fns }) => {
           {title}
         </h1>
       </div>
-      <h2 className={`${fns ? fns:"text-5xl"}  font-bold leading-tight text-white`}>{tagLine}</h2>
+      <h2 className={`${fns ? fns:"text-3xl md:text-5xl"}  font-bold leading-tight text-white`}>{tagLine}</h2>
     </div>
   );
 };

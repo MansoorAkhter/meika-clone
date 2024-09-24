@@ -9,12 +9,12 @@ module.exports = {
         mainGray: "#969696",
       },
       animation: {
-        'slide-rotate': 'slide-rotate 5s linear infinite',
+        'slide-rotate': 'slide-rotate 8s linear infinite',
       },
       keyframes: {
         'slide-rotate': {
-          '0%': { transform: 'translateX(15%) rotate(-0deg)' },
-          '100%': { transform: 'translateX(-15%) rotate(-0deg)' },
+          '0%': { transform: 'translateX(0%) rotate(-0deg)' },
+          '100%': { transform: 'translateX(-25%) rotate(-0deg)' },
         },
       },
     },

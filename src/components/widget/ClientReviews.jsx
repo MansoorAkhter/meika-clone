@@ -14,15 +14,31 @@ const ClientReviews = () => {
           <SectionHeader heading="What client Says?" />
         </div>
 
-        <div className="flex items-center gap-8 mt-14">
+        <div className="flex flex-col items-center gap-8 mt-14">
           <Swiper
             slidesPerView={2}
             spaceBetween={30}
-            pagination={{
-              clickable: true,
-            }}
             modules={[Pagination]}
+            pagination={{ clickable: true }}
             className="mySwiper"
+            breakpoints={{
+              '@0.00': {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              '@0.75': {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              '@1.00': {
+                slidesPerView: 1,
+                spaceBetween: 30,
+              },
+              '@1.50': {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+            }}
           >
             <SwiperSlide>
               <ClientReview />

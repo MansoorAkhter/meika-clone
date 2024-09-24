@@ -27,6 +27,7 @@ import clientLogo1 from "./t-logo.png";
 import clientLogo2 from "./t-logo2.png";
 import qtIcon from "./qt-icon.png";
 import patternbg from "./sr-h-bg.png";
+import heroBg from "./hero-bg.png";
 
 export const ICON = {
   logo1,
@@ -57,5 +58,6 @@ export const ICON = {
   clientLogo1,
   clientLogo2,
   qtIcon,
-  patternbg
+  patternbg,
+  heroBg
 };

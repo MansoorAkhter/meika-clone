@@ -48,6 +48,34 @@ export const serviceData = [
     desc: "Pellentesque sit amet urna justo. Fusce velit nibh commo iaculis vestibulum condimentum.",
     href: "/",
   },
+  {
+    title: "Brand Design",
+    icon: ICON.icon1,
+    hoverIcon: ICON.hicon1,
+    desc: "Pellentesque sit amet urna justo. Fusce velit nibh commo iaculis vestibulum condimentum.",
+    href: "/",
+  },
+  {
+    title: "Seo Service",
+    icon: ICON.icon2,
+    hoverIcon: ICON.hicon2,
+    desc: "Pellentesque sit amet urna justo. Fusce velit nibh commo iaculis vestibulum condimentum.",
+    href: "/",
+  },
+  {
+    title: "Web Design",
+    icon: ICON.icon3,
+    hoverIcon: ICON.hicon3,
+    desc: "Pellentesque sit amet urna justo. Fusce velit nibh commo iaculis vestibulum condimentum.",
+    href: "/",
+  },
+  {
+    title: "UI/UX Design",
+    icon: ICON.icon4,
+    hoverIcon: ICON.hicon4,
+    desc: "Pellentesque sit amet urna justo. Fusce velit nibh commo iaculis vestibulum condimentum.",
+    href: "/",
+  },
 ];
 
 export const porfolioData = [

@@ -16,17 +16,17 @@ const Service = ({ icon, iconHover, title, desc }) => {
         <img
           src={icon}
           alt="icon"
-          className="w-auto h-24 group-hover:hidden "
+          className="w-auto h-24 group-hover:hidden"
         />
         <img
           src={iconHover}
           alt="iconHover"
-          className="absolute inset-0 hidden w-auto h-24 group-hover:block "
+          className="absolute inset-0 hidden w-auto h-24 -z-10 group-hover:block"
         />
       </div>
 
       <div className="row-span-5">
-        <h1 className="text-3xl font-bold text-white duration-300 cursor-pointer hover:text-secondary">
+        <h1 className="text-3xl font-bold text-white duration-300 cursor-pointer group-hover:text-secondary">
           {title}
         </h1>
         <p className="text-[15px] tracking-[0.018em] leading-[1.9] text-mainGray mt-6">{desc}</p>

@@ -8,7 +8,7 @@ import { Pagination } from "swiper/modules";
 
 const ClientReviews = () => {
   return (
-    <section className="flex justify-center w-full h-screen">
+    <section className="flex justify-center w-full md:h-screen">
       <Wrapper>
         <div className="flex flex-col items-center gap-5">
           <SectionHeader heading="What client Says?" />

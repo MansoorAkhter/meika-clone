@@ -6,14 +6,13 @@ const Herobanner = () => {
     <div
       style={{
         backgroundImage: `url(${ICON.heroBg})`,
-        // backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         width: "100%",
         height: "100vh",
         zIndex: -0,
       }}
-      className="grid grid-rows-3 py-8 md:px-10"
+      className="grid grid-rows-3 py-8 bg-center md:px-10 md:bg-top"
     >
       <div className="absolute top-40 md:top-48 md:left-64 w-full md:w-[40%] px-5 md:px-0">
         <h2 className="font-bold md:leading-[6rem] text-white text-4xl md:text-[80px]">

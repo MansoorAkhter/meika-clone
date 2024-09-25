@@ -8,19 +8,21 @@ import Portfolio from "./components/widget/Portfolio";
 import TickerBar from "./components/widget/TickerBar";
 import OurSuccess from "./components/widget/OurSuccess";
 import ClientReviews from "./components/widget/ClientReviews";
+import ScrollUp from "./components/shared/ScrollUp";
 
 const App = () => {
   return (
     <div className="main">
+      <ScrollUp />
       <Header />
-      <Herobanner/>
-      <ClientCarousel/>
-      <OurServices/>
-      <About/>
-      <Portfolio/>
-      <TickerBar/>
-      <OurSuccess/>
-      <ClientReviews/>
+      <Herobanner />
+      <ClientCarousel />
+      <OurServices />
+      <About />
+      <Portfolio />
+      <TickerBar />
+      <OurSuccess />
+      <ClientReviews />
     </div>
   );
 };

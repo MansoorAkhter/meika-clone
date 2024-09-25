@@ -28,8 +28,13 @@ import clientLogo2 from "./t-logo2.png";
 import qtIcon from "./qt-icon.png";
 import patternbg from "./sr-h-bg.png";
 import heroBg from "./hero-bg.png";
+import footerBg from "./footer_bg.png";
+import cpLogo from "./cp-logo.png";
+import logo from "./logo.png";
+import email from "./email.png";
 
 export const ICON = {
+  logo,
   logo1,
   logo2,
   logo3,
@@ -59,5 +64,7 @@ export const ICON = {
   clientLogo2,
   qtIcon,
   patternbg,
-  heroBg
+  heroBg,
+  footerBg,
+  cpLogo,email
 };

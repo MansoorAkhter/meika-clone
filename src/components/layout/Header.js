@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import logo from "../../assets/logo.png";
 import toggleMenu from "../../assets/toggle-menu.png";
 import { menuData } from "../../utils/TextData";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { ICON } from "../../assets";
 
 const Header = () => {
   const TOP_OFFSET = 50;
@@ -10,7 +10,6 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      console.log(window.scrollY);
       if (window.scrollY >= TOP_OFFSET) {
         setShowBackground(true);
       } else {
@@ -34,7 +33,7 @@ const Header = () => {
     >
       <div className="hidden md:flex items-center justify-between w-[90%]">
         {/* Logo */}
-        <img href="/" src={logo} alt="Logo" className="w-[12rem]  h-[2.3rem]" />
+        <img href="/" src={ICON.logo} alt="Logo" className="w-[12rem]  h-[2.3rem]" />
 
         {/* Menu */}
         <ul className="flex font-semibold text-white space-x-14">
@@ -81,7 +80,7 @@ const Header = () => {
       </div>
 
       <div className="flex justify-between w-full py-2 md:hidden">
-        <img href="/" src={logo} alt="Logo" className="w-[9rem]  h-[1.8rem]" />
+        <img href="/" src={ICON.logo} alt="Logo" className="w-[9rem]  h-[1.8rem]" />
 
         <div className="flex items-center justify-center w-10 border border-white h-9">
           <GiHamburgerMenu color="#fff" size={24}/>

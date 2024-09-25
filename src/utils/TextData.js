@@ -97,3 +97,30 @@ export const clientsData = [
   ICON.logo4,
   ICON.logo5,
 ];
+
+export const footerData = [
+  {
+    title: "Follow Me",
+    routeNames: ["Facebook", "Twitter", "Instagram", "LinkedIn"],
+  },
+  {
+    title: "Top Links",
+    routeNames: [
+      "About",
+      "Careers",
+      "Terms of service",
+      "We’re Hiring",
+      "Cookie Policy",
+      "News & Media",
+    ],
+  },
+  {
+    title: "Explore",
+    routeNames: [
+      "Contact Us",
+      "Team Member",
+      "Latest Portfolio",
+      "News & Media",
+    ],
+  },
+];

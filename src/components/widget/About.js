@@ -31,7 +31,7 @@ const About = () => {
             </div>
 
             {/* right */}
-            <div className="pb-20 md:pb-0 md:h-full px-7 place-items-center place-content-center bg-[#181818] md:bg-transparent">
+            <div className="pb-20 md:pb-0 md:h-full px-7 place-items-center place-content-center bg-bgGray md:bg-transparent">
               <HalfSectionHeader
                 title="About Us Meika"
                 tagLine="We Provide You Best Experience"

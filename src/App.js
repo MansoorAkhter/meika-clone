@@ -9,6 +9,7 @@ import TickerBar from "./components/widget/TickerBar";
 import OurSuccess from "./components/widget/OurSuccess";
 import ClientReviews from "./components/widget/ClientReviews";
 import ScrollUp from "./components/shared/ScrollUp";
+import Footer from "./components/layout/Footer";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <TickerBar />
       <OurSuccess />
       <ClientReviews />
+      <Footer/>
     </div>
   );
 };

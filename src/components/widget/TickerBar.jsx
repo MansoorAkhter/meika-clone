@@ -9,11 +9,11 @@ const TickerBar = () => {
     "Apps",
     "Branding",
     "Photography",
-     ];
+  ];
   return (
-    <div className="relative w-full h-20 bg-[#aaa2] my-10 md:my-20">
-      <div className="absolute flex items-center w-full h-full rotate-[-4deg] overflow-hidden bg-[#181818]">
-        <div className="flex flex-shrink-0 w-auto h-full overflow-hidden justify-evenly gap-x-6 md:gap-20 animate-slide-rotate">
+    <div className="relative w-full h-20 bg-[#aaa2] my-10 md:my-20 overflow-x-clip">
+      <div className="absolute flex items-center w-full h-full z-50 rotate-[-4deg] bg-[#181818] left-0 ">
+        <div className="flex flex-shrink-0 w-auto h-full justify-evenly gap-x-6 md:gap-20 animate-slide-rotate">
           {tickerData?.map((ticker, index) => (
             <div
               className={`text-3xl flex items-center gap-2`}
@@ -48,3 +48,5 @@ const TickerBar = () => {
 };
 
 export default TickerBar;
+
+

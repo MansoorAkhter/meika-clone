@@ -9,7 +9,7 @@ const OurSuccess = () => {
   return (
     <section className="flex items-center w-full pb-20 mt-20 md:mt-0 md:h-screen">
       <Wrapper>
-        <div className="grid gap-10 px-6 md:pt-20 md:grid-cols-2 place-items-center place-content-center">
+        <div className="grid px-6 gap-14 md:pt-20 md:grid-cols-2 place-items-center place-content-center">
           {/* Left */}
           <div className="relative">
             <div className="w-[35%] h-[35%] absolute top-14 md:top-28 -right-1 md:right-1 md:p-4">
@@ -27,11 +27,11 @@ const OurSuccess = () => {
           </div>
 
           {/* Right */}
-          <div className="">
+          <div>
             <HalfSectionHeader
               title="What do We Do"
               tagLine="Grow your business with a creative agency."
-              fns="text-3xl md:text-[56px]"
+              fns="text-3xl md:text-[50px]"
             />
             <p className="mt-5 text-mainGray">
               Mauris ut enim sit amet lacus ornare ullamcorper. Praesent

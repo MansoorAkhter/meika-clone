@@ -11,7 +11,7 @@ import { Pagination } from "swiper/modules";
 const ClientCarousel = () => {
   return (
     <Wrapper>
-      <div className="flex items-center justify-center w-full h-32 px-4 mt-20 md:px-0">
+      <div className="flex items-center justify-center w-full h-32 px-4 mt-24 md:mt-28 md:px-0">
         <Swiper
           slidesPerView={4}
           breakpoints={{

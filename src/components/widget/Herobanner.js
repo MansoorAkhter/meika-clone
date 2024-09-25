@@ -6,7 +6,7 @@ const Herobanner = () => {
     <div
       style={{
         backgroundImage: `url(${ICON.heroBg})`,
-        backgroundPosition: "center",
+        // backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         width: "100%",

@@ -12,7 +12,7 @@ const TickerBar = () => {
   ];
   return (
     <div className="relative w-full h-20 bg-[#aaa2] my-10 md:my-20 overflow-x-clip">
-      <div className="absolute flex items-center w-full h-full z-50 rotate-[-4deg] bg-[#181818] left-0 ">
+      <div className="absolute flex items-center w-full h-full z-40 rotate-[-4deg] bg-[#181818] left-0 ">
         <div className="flex flex-shrink-0 w-auto h-full justify-evenly gap-x-6 md:gap-20 animate-slide-rotate">
           {tickerData?.map((ticker, index) => (
             <div

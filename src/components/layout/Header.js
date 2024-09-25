@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <header
-      className={`flex md:justify-center items-center sticky z-50 h-auto inset-0 p-3 border-b border-[#aaa2] transition-colors ${
+      className={`fixed flex md:justify-center items-center z-50 h-20 inset-0 p-3 border-b border-[#aaa2] transition-colors ${
         // showBackground ? "backdrop-blur-xl" : ""
         showBackground ? "bg-primary" : ""
       }`}

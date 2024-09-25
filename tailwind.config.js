@@ -8,6 +8,7 @@ module.exports = {
         secondary: "#DF2919",
         mainGray: "#969696",
         bgGray: "#181818",
+        lightGray:"#aaa2"
       },
       animation: {
         'slide-rotate': 'slide-rotate 8s linear infinite',

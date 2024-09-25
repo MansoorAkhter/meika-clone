@@ -10,6 +10,8 @@ import OurSuccess from "./components/widget/OurSuccess";
 import ClientReviews from "./components/widget/ClientReviews";
 import ScrollUp from "./components/shared/ScrollUp";
 import Footer from "./components/layout/Footer";
+import TeamMember from "./components/widget/TeamMember";
+import PublicBanner from "./components/shared/PublicBanner";
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
       <TickerBar />
       <OurSuccess />
       <ClientReviews />
+      <PublicBanner/>
+      <TeamMember/>
       <Footer/>
     </div>
   );

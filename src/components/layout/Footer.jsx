@@ -85,7 +85,7 @@ const Footer = () => {
       <div className="w-full h-[90px] bg-[#aaa2]">
         <div className="flex items-center justify-between h-full max-w-screen-xl mx-auto">
           <p className="text-white">
-            Copyright © 2023 <span className="text-secondary">Zucbedesign</span>
+            Copyright © 2024 <span className="text-secondary">Meika Corporation</span>
             . All rights reserved.
           </p>
           <img src={ICON.cpLogo} alt="logo" />

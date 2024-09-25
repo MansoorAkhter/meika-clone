@@ -13,8 +13,6 @@ const ClientReview = () => {
         height: "40vh",
         zIndex: -0,
       }}
-
-      
       className="grid grid-rows-3 px-5 py-8 md:px-10"
     >
       {/* 1 */}
@@ -29,7 +27,7 @@ const ClientReview = () => {
           <img src={ICON.stars} alt="review stars" />
         </div>
       </div>
-      
+
       {/* 2 */}
       <div className="mt-3 text-sm tracking-wide md:leading-snug md:text-2xl text-mainGray place-content-center">
         Nam ultricies sed leo eget vehi. Sed variunoni magna quistoli mats. Inte

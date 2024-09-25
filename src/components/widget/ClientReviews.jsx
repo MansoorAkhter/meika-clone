@@ -8,9 +8,9 @@ import { Pagination } from "swiper/modules";
 
 const ClientReviews = () => {
   return (
-    <section className="flex justify-center w-full pb-20 md:h-screen">
+    <section className="flex justify-center w-full pb-20 md:h-[85vh]">
       <Wrapper>
-        <div className="flex flex-col items-center gap-5">
+        <div className="flex flex-col items-center gap-5 -mt-20">
           <SectionHeader heading="What client Says?" />
         </div>
 
@@ -22,19 +22,19 @@ const ClientReviews = () => {
             pagination={{ clickable: true }}
             className="mySwiper"
             breakpoints={{
-              '@0.00': {
+              "@0.00": {
                 slidesPerView: 1,
                 spaceBetween: 20,
               },
-              '@0.75': {
+              "@0.75": {
                 slidesPerView: 1,
                 spaceBetween: 20,
               },
-              '@1.00': {
+              "@1.00": {
                 slidesPerView: 1,
                 spaceBetween: 30,
               },
-              '@1.50': {
+              "@1.50": {
                 slidesPerView: 2,
                 spaceBetween: 30,
               },

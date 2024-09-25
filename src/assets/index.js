@@ -32,6 +32,8 @@ import footerBg from "./footer_bg.png";
 import cpLogo from "./cp-logo.png";
 import logo from "./logo.png";
 import email from "./email.png";
+import member from "./member.png";
+import bannerBg from "./bannerBg.png";
 
 export const ICON = {
   logo,
@@ -66,5 +68,8 @@ export const ICON = {
   patternbg,
   heroBg,
   footerBg,
-  cpLogo,email
+  cpLogo,
+  email,
+  member,
+  bannerBg
 };

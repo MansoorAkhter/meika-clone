@@ -11,12 +11,14 @@ const AnimatedButton = ({
   return (
     <button
       style={{ backgroundColor: bgc, height: h }}
-      className={`relative flex items-center justify-center gap-3 px-4 text-sm font-medium ${
+      className={`relative flex items-center justify-center group gap-3 px-4 text-sm font-medium ${
         border ? "border border-[#aaa2]" : bgc
       } text-white`}
     >
-      <div className="absolute top-0 right-0 w-0 h-full hover:w-full bg-secondary"></div>
       {title} <GoArrowUpRight color="#fff" className="text-[18px]" />
+      <div
+        className="absolute inset-0 top-0 right-0 w-0 h-full transition-all duration-300 -z-0 bg-secondary hover:w-full"
+      ></div>
     </button>
   );
 };

@@ -45,7 +45,7 @@ const OurSuccess = () => {
                 <PercentageBar />
                 <PercentageBar />
               </div>
-              <AnimatedButton bgc="#df2919" title="Discover More" h={60} />
+              <AnimatedButton bgc="#df2919" title="Discover More" h={60}/>
             </div>
           </div>
         </div>

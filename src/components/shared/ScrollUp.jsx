@@ -11,7 +11,7 @@ const ScrollUp = () => {
   return (
     <button
       onClick={scrollToTop}
-      className="fixed z-50 px-3 py-3 text-xl text-black rounded-full cursor-pointer bottom-10 right-10 bg-secondary"
+      className="fixed z-50 px-3 py-3 text-xl text-black rounded-full cursor-pointer bottom-10 right-5 md:right-10 bg-secondary"
     >
       <FaArrowTurnUp />
     </button>

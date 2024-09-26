@@ -56,7 +56,7 @@ const About = () => {
               </div>
 
               <div className="flex md:mt-6 gap-x-4">
-                <AnimatedButton border={true} h={56} />
+                <AnimatedButton border={true} h={56} bgc isAnimated/>
                 <button className="flex items-center justify-center border w-14 h-14 text-secondary border-secondary">
                   <IoMdPlay size={20} className="text-secondary" />
                 </button>

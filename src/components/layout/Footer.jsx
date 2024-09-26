@@ -11,21 +11,20 @@ const Footer = () => {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           width: "100%",
-          height: "67vh",
           zIndex: -0,
         }}
-        className="flex justify-center"
+        className="flex justify-center h-screen md:h-[67vh]"
       >
         {/* Footer Sections */}
         <div className="flex items-center">
-          <div className="grid w-full max-w-screen-xl gap-20 md:grid-cols-10">
-            <div className="grid col-span-4 grid-rows-3 place-items-center">
+          <div className="grid w-full max-w-screen-xl grid-cols-1 md:gap-20 md:grid-cols-10 px-7 md:px-0">
+            <div className="grid col-span-4 grid-rows-3 mb-10 md:mb-0 place-items-center">
               <div className="w-full row-span-1 mb-20">
                 <img
                   href="/"
                   src={ICON.logo}
                   alt="Logo"
-                  className="w-[17rem]  h-[3.2rem]"
+                  className="h-6 w-28 md:w-[17rem] md:h-[3.2rem]"
                 />
               </div>
               <div className="row-span-2">
@@ -33,14 +32,14 @@ const Footer = () => {
                   get contact
                 </h5>
 
-                <div className="h-16 w-[82%] border-b border-[#aaa3] flex items-center gap-x-8  mb-8">
-                  <div className="ml-4">
+                <div className="h-16 md:w-[88%] border-b border-[#aaa3] flex items-center gap-x-4 md:gap-x-7 mb-8">
+                  <div className="ml-2 md:ml-4">
                     <img src={ICON.email} alt="email" />
                   </div>
                   <input
                     type="text"
                     placeholder="info.meika@gmail.com"
-                    className="w-full h-full text-3xl font-bold bg-transparent outline-none placeholder:text-[#aaa3] text-mainGray"
+                    className="w-full h-full text-lg md:text-3xl font-bold bg-transparent outline-none placeholder:text-[#aaa3] text-mainGray"
                   />
                 </div>
 
@@ -61,7 +60,7 @@ const Footer = () => {
             {footerData.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col items-start justify-start col-span-2 gap-y-5"
+                className="flex flex-col col-span-2 gap-y-5"
               >
                 <h2 className="mb-2 text-lg font-bold text-white">
                   {item?.title}
@@ -83,12 +82,12 @@ const Footer = () => {
 
       {/* Bottom field */}
       <div className="w-full h-[90px] bg-[#aaa2]">
-        <div className="flex items-center justify-between h-full max-w-screen-xl mx-auto">
-          <p className="text-white">
+        <div className="relative flex flex-col items-center justify-between h-full max-w-screen-xl p-3 mx-auto md:flex-row">
+          <p className="text-center text-white">
             Copyright © 2024 <span className="text-secondary">Meika Corporation</span>
             . All rights reserved.
           </p>
-          <img src={ICON.cpLogo} alt="logo" />
+          <img src={ICON.cpLogo} alt="logo" className="absolute bottom-2 right-2 md:relative md:bottom-0 md:right-0" />
         </div>
       </div>
     </>

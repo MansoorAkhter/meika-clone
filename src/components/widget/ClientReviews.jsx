@@ -10,7 +10,7 @@ const ClientReviews = () => {
   return (
     <section className="flex justify-center w-full pb-20 md:h-[85vh]">
       <Wrapper>
-        <div className="flex flex-col items-center gap-5 -mt-20">
+        <div className="flex flex-col items-center gap-5 mt-10 md:-mt-20">
           <SectionHeader heading="What client Says?" />
         </div>
 

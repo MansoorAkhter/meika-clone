@@ -10,7 +10,7 @@ const Member = () => {
           21 Aug <br /> 2024
         </div>
       </div>
-      <div className="content-center w-28 h-28 md:w-1/2 md:h-2/2">
+      <div className="content-center w-28 h-28 md:w-[55%] md:h-full">
         <img
           src={ICON.member}
           alt="avatar"
@@ -18,7 +18,7 @@ const Member = () => {
         />
       </div>
       <div className="content-center w-full px-4 text-center md:px-0 md:pr-5 md:col-span-2 md:text-left">
-        <h5 className="text-mainGray">Web Design</h5>
+        <h5 className="mb-1 text-mainGray">Web Design</h5>
         <p className="text-2xl font-bold leading-relaxed text-white cursor-pointer group-hover:underline">
           In-house vs Agency Marketing Four Things to Consider
         </p>
